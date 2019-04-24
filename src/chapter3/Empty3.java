@@ -6,8 +6,7 @@ class Empty3 {
         int i;
         int sum = 0;
 
-        for (i = 1; i <= 5; sum += i++) {
-            System.out.println("Sum is " + sum);
-        }
+        for (i = 1; i <= 5; sum += i++);
+        System.out.println("Sum is " + sum);
     }
 }

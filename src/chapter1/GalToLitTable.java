@@ -17,8 +17,6 @@ class GalToLitTable {
                 System.out.println();
                 counter=0;
                          }
-
         }
-
     }
 }
