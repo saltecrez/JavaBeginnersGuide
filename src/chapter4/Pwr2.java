@@ -1,4 +1,5 @@
 package chapter4;
+//same as Pwr.java just using this. But not really interesting.
 
 class Pwr2 {
 
