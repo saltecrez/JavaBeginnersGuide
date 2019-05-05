@@ -1,5 +1,6 @@
 package chapter10;
-
+//programma modificato perchè non riesco a dare
+//in input a Netbeans un argomento
 /* Display a text file. 
  
    To use this program, specify the name  
@@ -16,15 +17,18 @@ class ShowFile {
     public static void main(String args[]) {
         int i;
         FileInputStream fin;
-
+        String s="/home/londero/TEST.TXT";
+        
         // First make sure that a file has been specified.
-        if (args.length != 1) {
+        //if (args.length != 1) {
+        if (args.length != 0) {
             System.out.println("Usage: ShowFile File");
             return;
         }
 
         try {
-            fin = new FileInputStream(args[0]);
+            //fin = new FileInputStream(args[0]);
+            fin = new FileInputStream(s);
         } catch (FileNotFoundException exc) {
             System.out.println("File Not Found");
             return;
