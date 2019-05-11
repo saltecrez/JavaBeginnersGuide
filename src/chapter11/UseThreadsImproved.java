@@ -1,20 +1,13 @@
 package chapter11;
 
-class UseThreads {
+class UseThreadsImproved {
 
     public static void main(String args[]) {
         System.out.println("Main thread starting.");
 
-        // First, construct a MyThread object.
-        MyThread mt = new MyThread("Child #1");
+        MyThread2 mt = new MyThread2("Child #1");
 
-        // Next, construct a thread from that object.
-        Thread newThrd = new Thread(mt);
-
-        // Finally, start execution of the thread.
-        newThrd.start();
-
-        for (int i = 0; i <40; i++) {
+        for (int i = 0; i < 50; i++) {
             System.out.print(".");
             try {
                 Thread.sleep(100);
