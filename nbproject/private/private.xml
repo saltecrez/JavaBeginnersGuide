@@ -3,8 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/londero/NetBeansProjects/JavaBeginnersGuide/src/chapter13/NumericFns.java</file>
-            <file>file:/home/londero/NetBeansProjects/JavaBeginnersGuide/src/chapter13/BoundsDemo.java</file>
+            <file>file:/home/londero/NetBeansProjects/JavaBeginnersGuide/src/chapter13/QueueFullException.java</file>
+            <file>file:/home/londero/NetBeansProjects/JavaBeginnersGuide/src/chapter13/GenQDemo.java</file>
+            <file>file:/home/londero/NetBeansProjects/JavaBeginnersGuide/src/chapter13/GenQueue.java</file>
+            <file>file:/home/londero/NetBeansProjects/JavaBeginnersGuide/src/chapter13/IGenQ.java</file>
+            <file>file:/home/londero/NetBeansProjects/JavaBeginnersGuide/src/chapter13/QueueEmptyException.java</file>
         </group>
     </open-files>
 </project-private>
